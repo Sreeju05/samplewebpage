@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Space+Grotesk&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Space Grotesk', sans-serif;
+/* background-color: black; */
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding-left: 5rem;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.233);
+    z-index: 100;
+    
+}
+.navbar .navbar-brand{
+    font-size: 28px;
+    font-weight: 1000;
+    color: #77b120d0!important;
+}
+#navbarSupportedContent a{
+    color: #fff;
+    border-bottom: 2px solid transparents  ;
+    /* transition: 3s; */
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid #77b120d0  ;
+    
+}
+ #btn{
+    background-color : #77b120d0;
+    border-radius: 10px;
+    
+     color: white; 
+
+}       
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* home */
+#home{
+    background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)), url("product-bg-spices.jpg");
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#home h1{
+    font-size: 90px;
+    color: white;
+    letter-spacing: 3px;
+    text-shadow: 0 2px 0 #ccc,
+                 0 2px 0 #ccc,
+                 0 1px 0 #ccc,
+                 0 3px 0 #ccc,
+                 0 3px 0 #ccc,
+                 0 2px 0 #ccc,
+                 0 2px 0 #ccc,
+                 0 3px 0 #ccc;
+                 font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+#home p{
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 2px;
+
+}
+ #home .input-group{
+    width: 40% ;
+}
+#home button{
+    background-color: #77b120d0;
+    color: #fff;
+    box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.534);
+}
+#about{
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+#about h1{
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    text-shadow: 5px 4px 3px rgba(0, 0, 0, 0.479);
+    letter-spacing: 1px;
+    line-height: normal;
+    
+}
+#about p{
+    text-align: center;
+
+}
+/* products */
+#products{
+    background-color: #e5e5e5;
+}
+#products h1{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+}
+#products img{
+    width: 200px;
+    height: 200px;
+}
+.card{
+    width: 300px;
+    height: 330px;
+    background-color: #e5e5e5 !important;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.349),
+               inset 4px 4px 10px white;
+    border-radius:20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+    transition: 3s;
+
+}
+.card:hover{
+    box-shadow: inset 15px 20px 20px rgba(0, 0, 0, 0.349),
+    inset -4px -4px 10px white;
+
+}
+#contact img{
+    height: 100%;
+}
+.box{
+    width: 100%;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+#contact input{
+    margin: 10px 0;
+}
+#contact textarea{
+    margin: 10px 0;
+}
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: -30px;
+    padding: 5px;
+
+}
+.d{
+    background-color: black;
+}

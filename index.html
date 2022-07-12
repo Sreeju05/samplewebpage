@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<script>
+  function msg(){
+    document.body.classList.toggle('d');
+  }
+</script>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">SPICES</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto ">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#products">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+         
+          
+       
+        
+    
+      </div>
+      <button class="btn btn-outline-success  mx-5 " type="submit" id="btn" onclick="msg()">Dark Mode</button>
+    
+    </div>
+  </nav>
+ <section id="home">
+
+  <h1 class="text-center">ORGANIC SPICES</h1>
+  <p class="text-center">let's taste ower products</p>
+  <div class="input-group m-4">
+    <input type=" text" placeholder="email addres" class="form-control">
+    <button class="btn sign">Let's start</button>
+  </div>
+
+ </section>
+ <!--     ABOUT      -->
+ <section id="about">
+  <div class="container-fluid">
+    
+    <div class="row">
+      <div class="col-lg-5 col-md-6 col-12">
+        <img src="about.png" class="img-fluid  ">
+      </div>
+      <div class="col-lg-7 col-md-6 col-12">
+        <h1 class="my-lg-5 my-4" >ABOUT US</h1>
+        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores earum nisi eligendi quidem esse maxime laudantium magnam natus illo sunt nam eum cupiditate, doloribus consectetur quo quasi aliquam odit sit a ad atque! Odit dolor enim similique autem iure cum tempore unde officiis, consequuntur magnam tenetur delectus earum inventore quas modi officia sunt eaque? Adipisci, hic minima, aperiam blanditiis voluptatibus iure facilis ab tempore consequatur labore doloribus corporis eius quas rem, soluta possimus in nulla maxime deleniti sequi quibusdam corrupti. Commodi dolorum corporis maiores placeat animi accusamus ipsa ut optio libero aspernatur consectetur repellat ratione voluptatibus beatae libero id animi. Optio sint repudiandae est enim deserunt dolores eligendi laudantium dolorum placeat, tenetur recusandae et consectet !soluta possimus in nulla maxime deleniti sequi quibusdam corrupti. Commodi dolorum corporis maiores placeat animi accusamus ipsa ut optio libero aspernatur consectetur repellat ratione voluptatibus beatae libero id animi. Optio sint repudiandae est enim deserunt dolores eligendi laudantium dolorum placeat, tenetur recusandae et consectet <p>
+      </div>
+    </div>
+  </div>
+
+ </section>
+ <section id="products">
+  <div class="container m-5">
+    <h1 class="text-center py-2">OUR PRODUCTS</h1>
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-12 ">
+        <div class="card" style="width: 18rem;">
+          <img src="img1.png" class="card-img-top">
+          <div class="card-body text-center">
+            <h5 class="card-title">Turmeric-$2</h5>
+            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+            <a href="#" class="btn " id="btn">Add TO Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-12 ">
+        <div class="card" style="width: 18rem;">
+          <img src="img2.png" class="card-img-top" >
+          <div class="card-body text-center">
+            <h5 class="card-title">Red Chill Powder-$2</h5>
+            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+            <a href="#" class="btn " id="btn">Add TO Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-12 ">
+        <div class="card" style="width: 18rem;">
+          <img src="img3.png" class="card-img-top" >
+          <div class="card-body text-center">
+            <h5 class="card-title">Garam Masala-$2</h5>
+            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+            <a href="#" class="btn " id="btn"  >Add TO Cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-12 ">
+        <div class="card" style="width: 18rem;">
+          <img src="img4.png" class="card-img-top">
+          <div class="card-body text-center">
+            <h5 class="card-title">Geru powder-$2</h5>
+            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+            <a href="#" class="btn" id="btn">Add TO Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-12 ">
+        <div class="card" style="width: 18rem;">
+          <img src="img5.png" class="card-img-top" >
+          <div class="card-body text-center">
+            <h5 class="card-title">Card title</h5>
+            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+            <a href="#" class="btn " id="btn">Immunity Mixture-$2</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-12 ">
+        <div class="card" style="width: 18rem;">
+          <img src="img6.png" class="card-img-top" >
+          <div class="card-body text-center">
+            <h5 class="card-title">Soonth Powder-$2</h5>
+            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+            <a href="#" class="btn" id="btn">Add TO Cart</a>
+          </div> 
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-12 ">
+        <div class="card" style="width: 18rem;">
+          <img src="img7.png" class="card-img-top">
+          <div class="card-body text-center">
+            <h5 class="card-title">Milk Masala-$2</h5>
+            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+            <a href="#" class="btn " id="btn">Add TO Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-12 ">
+        <div class="card" style="width: 18rem;">
+          <img src="img8.png" class="card-img-top" >
+          <div class="card-body text-center">
+            <h5 class="card-title">Tea Masala-$2</h5>
+            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+            <a href="#" class="btn " id="btn">Add TO Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-12 ">
+        <div class="card" style="width: 18rem;">
+          <img src="img9.png" class="card-img-top" >
+          <div class="card-body text-center">
+            <h5 class="card-title">Black Pepper-$2</h5>
+            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+            <a href="#" class="btn " id="btn">Add TO Cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ </section>
+ <section id="contact">
+  <div class="container box">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-12">
+        <img src="contact.jpg" class="img-fluid">
+
+      </div>
+      <div class="col-lg-6 col-md-6 col-12" >
+        <form>
+          <h3 class="text-center">Contact Us</h3>
+          <input type="text" placeholder="Enter Your Name " class="form-control">
+          <input type="email" placeholder="Enter Your mail " class="form-control">
+          <textarea name="n" class="form-control" placeholder="Enter Your Message"></textarea>
+          <button class="btn" id="btn">Submit</button>
+
+        </form>
+      </div>
+      
+    </div>
+  </div>
+
+ </section>
+ <footer>Copyrights @SREEJU 2022</footer>
+   
+</body>
+</html>
